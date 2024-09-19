@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             //Instansiera bankAccount klassen och testa den
+            Console.WriteLine("Test");
         }
     }
 }
