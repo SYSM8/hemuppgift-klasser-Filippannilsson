@@ -20,6 +20,12 @@
                 account3,
                 account4
             };
+
+            //account1.Deposit();
+
+            //account1.Withdraw();
+
+            //account1.DisplayBalance();
         }
     }
 }
