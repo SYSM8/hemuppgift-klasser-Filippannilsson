@@ -9,6 +9,9 @@ namespace BankAccount
     public class BankAccount
     {
         //Lägg till Egenskaper (fields)
+        public string AccountNumber { get; set; }
+        public string AccountHolder { get; set; }
+        public double Balance { get; set; }
 
         //Lägg till Konstruktor
 
