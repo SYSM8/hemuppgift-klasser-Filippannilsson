@@ -29,6 +29,7 @@ namespace BankAccount
             if (amount > 0)
             {
                 Balance += amount;
+                Console.WriteLine($"Deposited: {amount} kr, New Balance: {Balance} kr");
             }
             else
             {
@@ -47,6 +48,7 @@ namespace BankAccount
             else if (withdraw <= Balance)
             {
                 Balance -= withdraw;
+                Console.WriteLine($"Withdrew: {withdraw} kr, New Balance {Balance} kr");
             }
             else
             {

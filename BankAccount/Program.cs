@@ -21,11 +21,11 @@
                 account4
             };
 
-            //account1.Deposit();
+            account1.Deposit(500);
 
-            //account1.Withdraw();
+            account1.Withdraw(200);
 
-            //account1.DisplayBalance();
+            account1.DisplayBalance();
         }
     }
 }
